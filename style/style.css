@@ -1,0 +1,85 @@
+/* 
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap'); 
+*/
+@font-face {
+    font-family: 'KuraleRegular';
+    src: url('../font/KuraleRegular.woff2') format('woff2'),
+         url('../font/KuraleRegular.woff') format('woff'),
+         url('../font/KuraleRegular.svg#KuraleRegular') format('svg');
+}
+@font-face {
+    font-family: 'PTMonoRegular';
+    src: url('../font/PTMonoRegular.woff2') format('woff2'),
+         url('../font/PTMonoRegular.woff') format('woff'),
+         url('../font/PTMonoRegular.svg#PTMonoRegular') format('svg');
+}
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    padding: 43px 50px 0 50px;
+
+    max-width: 1920px; /* ------------ */
+    margin: 0 auto; /* ------------ */
+}
+.wrapper {
+    border-top: 7px solid #222;
+}
+.wrapper__inner {
+    padding-bottom: 50px;
+}
+.wrapper__title {
+    border-bottom: 1px solid #B0BAE0;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-family: "KuraleRegular", serif;
+    font-size: 22px;
+}
+.wrapper__paragraph {
+    font-family: "PTMonoRegular", monospace, Consolas;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #222;
+}
+
+.wrapper__item {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "PTMonoRegular", monospace, Consolas;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #222;
+    margin-bottom: 20px;
+}
+.wrapper__left {
+    flex: 1;
+    max-width: 170px;
+    padding-right: 20px;
+    color: #666;
+}
+.wrapper__link {
+    color: #3F57C4;
+}
+
+.wrapper__right {
+    flex: 1;
+    min-width: 170px;
+}
+
+.wrapper__email,
+.wrapper__tel {
+    font-family: "PTMonoRegular", monospace, Consolas;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #222;
+}
+.wrapper__dog {
+    font-family: "Verdana", sans-serif;
+}
