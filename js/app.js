@@ -5,5 +5,5 @@ window.addEventListener('DOMContentLoaded', () => {
     color.push(Math.floor(Math.random() * 255));
   }
   wrapper.style.borderImage = `linear-gradient(to right, #222, #222, #222, #222, rgb(${color}))`;
-  wrapper.style.borderImageSlice = `1`
+  wrapper.style.borderImageSlice = `1`;
 });
