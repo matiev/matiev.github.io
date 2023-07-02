@@ -6,4 +6,5 @@ window.addEventListener('DOMContentLoaded', () => {
   }
   wrapper.style.borderImage = `linear-gradient(to right, #222, #222, #222, #222, rgb(${color}))`;
   wrapper.style.borderImageSlice = `1`;
+  
 });
