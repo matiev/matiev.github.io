@@ -61,7 +61,7 @@
 .wrapper__left {
     flex: 1;
     /* max-width: 175px; */
-    max-width: 225px;
+    max-width: 210px;
     padding-right: 20px;
     color: #666;
 }
