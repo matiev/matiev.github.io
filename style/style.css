@@ -56,11 +56,12 @@
     font-size: 14px;
     line-height: 1.7;
     color: #222;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 .wrapper__left {
     flex: 1;
-    max-width: 175px;
+    /* max-width: 175px; */
+    max-width: 225px;
     padding-right: 20px;
     color: #666;
 }
