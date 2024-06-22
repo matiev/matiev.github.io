@@ -60,7 +60,7 @@
 }
 .wrapper__left {
     flex: 1;
-    mix-width: 205px;
+    min-width: 205px;
     max-width: 205px;
     /* padding-right: 20px; */
     color: #666;
@@ -82,3 +82,6 @@
     color: #222;
     text-decoration: none;
 }
+/* .wrapper__dog {
+    font-family: "Verdana", sans-serif;
+} */
